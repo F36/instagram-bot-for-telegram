@@ -13,13 +13,13 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-token = "1059789534:AAE2SZ-GfXVRYPjv43UKV7Ux_J6tut2flcY"
+token = "YOUR BOT TOKEN"
 
 
 
 def start(update,context):
     name = update.message.from_user.first_name
-    msg = "Hello "+name+".\nNice to meet you !\nI'm telegram bot written in Python by @vinayak_09\nFor more info type /help"
+    msg = "Hello "+name+".\nNice to meet you !\nI'm telegram bot by @nabilanavab\nFor more info type /help"
     update.message.reply_text(msg)
 
 def help(update,context):
