@@ -9,3 +9,6 @@
 ## How to get posted video ?
   * Simply type /instavideo videoUrl
   * Bot will send video in a while if it is public !
+
+
+![IMG_20200912_062240_657](https://user-images.githubusercontent.com/53673312/92983341-7a3df380-f4c0-11ea-9b21-ddda418c52c4.jpg)
